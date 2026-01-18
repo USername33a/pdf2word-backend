@@ -2,7 +2,7 @@ flask
 gunicorn
 pdf2docx
 pdfminer.six
-pytesseract
-pdf2image
 python-docx
+pdf2image
 Pillow
+flask-cors
