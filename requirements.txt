@@ -1,0 +1,8 @@
+flask
+gunicorn
+pdf2docx
+pdfminer.six
+pytesseract
+pdf2image
+python-docx
+pillow
