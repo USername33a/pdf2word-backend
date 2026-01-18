@@ -1,6 +1,8 @@
 #!/bin/bash
-# Update package list quietly
-sudo apt-get update -qq
+# This is Render-compatible build script for Python + OCR
 
-# Install system packages quietly
-sudo apt-get install -y tesseract-ocr poppler-utils
+# Update package list quietly
+apt-get update -qq
+
+# Install required system packages
+apt-get install -y tesseract-ocr poppler-utils
